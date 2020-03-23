@@ -1,2 +1,9 @@
 # STM32_F407_WS2812_PWM_DMA
 Use STM32 HAL PWM_DMA function to driver WS2812 RGB LED
+
+TIM3 PWM DMA用于输出驱动WS2812
+TIM12 用于微秒延时
+TIM13 PWM 呼吸灯
+TIM14 改变TIM13占空比
+RTC 每隔1s向串口1打印RTC时间
+
